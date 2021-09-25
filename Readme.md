@@ -9,7 +9,9 @@ git init
 ***initiate a new repo
 
 git add [file]
+git add . 
 ***send the file to the "staging" area
+*** dot send all files
 
 git status
 ***check status
@@ -28,4 +30,6 @@ git push -u origin main
 
 This is an alteration
 
+git checkout -b "branchname"
+***create branch
 
